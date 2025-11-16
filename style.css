@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-prim-color: #040710;
+  --bg-box-color: #85888f;
+  --bg-sec-color: #061e58;
+  --text-color: #fff;
+  --space-xs: 4px;
+  --space-s: 8px;
+  --space-md: 16px;
+  --space-l: 32px;
+  --space-xl: 64px;
+}
+
+main {
+  min-height: 100vh;
+  width: 100%;
+  text-align: center;
+  background-color: var(--bg-prim-color);
+  color: var(--text-color);
+  padding: var(--space-l) var(--space-md);
+}
+
+.logo {
+  width: clamp(80px, 15vw, 150px);
+  margin: var(--space-md) auto;
+}
+
+.info-box {
+  width: clamp(280px, 60vw, 500px);
+  padding: var(--space-md);
+  background-color: var(--bg-box-color);
+  margin: auto;
+  border-radius: var(--space-l);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-logo {
+  width: clamp(80px, 25vw, 180px);
+  height: clamp(80px, 25vw, 180px);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: var(--space-md) auto;
+  display: none;
+}
+
+.info-box p {
+  font-size: clamp(14px, 2vw, 20px);
+  font-weight: bold;
+}
+
+.btn {
+  background-color: var(--bg-sec-color);
+  color: var(--text-color);
+  border: none;
+  padding: 10px 20px;
+  font-size: clamp(14px, 2vw, 18px);
+  cursor: pointer;
+  margin-top: var(--space-md);
+  border-radius: 8px;
+}
+
+.btn:hover {
+  scale: 1.05;
+}
+
+/* MOBILE RESPONSIVE FIX */
+@media (max-width: 600px) {
+  .info-box {
+    width: 90%;
+    padding: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */
