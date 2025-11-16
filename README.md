@@ -50,4 +50,4 @@ When the user clicks the button, a **random IPL team** is selected and its detai
 ---
 
 ## 📸 live  
-👉 **View Project Here:** [Click here]([https://your-live-link-here.com](https://assignmentiplteamgenerator.netlify.app/))
+👉 **View Project Here:** [Click here](https://assignmentiplteamgenerator.netlify.app/)
